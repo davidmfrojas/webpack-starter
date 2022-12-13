@@ -1,0 +1,17 @@
+Instalar git
+    https://git-scm.com/
+
+Configurar git
+    git config --global user.name "[name]" //ingrear el nombre del usuario
+    git config --global user.email "[email address]" //ingresar el correo del usuario
+    git config --global color.ui auto //activa la ayuda de colores
+
+Crear repositorio
+    git init
+
+Crear archivo .gitignore y agregar lo que se desaea ignorar
+    node_modules/
+    dist/
+
+Agregar todos los archivos al repositorio
+    git add .

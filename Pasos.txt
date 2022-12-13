@@ -1,0 +1,93 @@
+Para inciar ejecutar los siguientes comandos
+
+1. confirmar instalación de node.js mayor o igual a 8
+    > node --version
+
+2. confirmar versión de NPM, mayor o igual a 3
+    > npm --version
+
+3. Crear la carpeta contenedora
+    > mkdir NombreCarpeta
+
+4. iniciar, permitirá crear el archivo package.json
+    > npm init
+
+5. Completar los datos solicitados en la consola
+    puede presionar Enter en cada paso para dejar 
+    los valores por defecto y no ingresarlos
+    nombreDelPaquete > ingresar el nombre del nombreDelPaquete
+    versión > ingresar la versión
+    Descripción > ingresar la Descripción
+    Punto incial de aplicación (entry point): ingresar la página inicial
+    comando de pruebas automaticas: ingresar los comandos
+    repositorio de git: ingresar la url del repositorio
+    keywords: ingresar las palabras clave
+    autor: ingresar el autor
+    Licencia: ingresar la licencia
+
+6. al final muestra como quedaría el archivo
+    package.json en la consola
+    presionar enter para crear el archivo
+
+7. ejecutar el comando de instalación de webpack
+    > npm install webpack webpack-cli --save-dev  //--save-dev indica que webpack y webpack-clies una dependencia de desarrollo
+
+8. configurar archivo package.json
+    scripts:
+        "build": "webpack"
+
+9. crear archivo de configuración webpack.config.js
+
+10. instalar paquete Html loader (cargar el html)
+    npm install --save-dev html-loader
+
+11. instalar paquete html webpack plugin (inyectar el main.js al index.html automaticamente)
+    npm install --save-dev html-webpack-plugin
+
+12. instalar paquete DevServer (servidor local)
+    npm install webpack-dev-server --save-dev
+
+13. instalar paquete css-loader (cargar el CSS)
+    npm install --save-dev css-loader
+
+14. instalar paquete style-loader (cargar el estilo)
+    npm install --save-dev style-loader
+
+14. instalar paquete MiniCssExtractPlugin (Creador de archivos css en js)
+    npm install --save-dev mini-css-extract-plugin
+
+15. instalar paquete MiniCssExtractPlugin (Creador de archivos css en js)
+    npm install --save-dev mini-css-extract-plugin
+
+15. instalar paquete MiniCssExtractPlugin (Creador de archivos css en js)
+    npm install --save-dev mini-css-extract-plugin
+
+17. Crear carpeta de recursos assets e instalar plugin fileloader (cargar archivos)
+    npm install file-loader --save-dev
+    
+18. instalar plugin CopyWebpackPlugin (copia archivos)
+    npm install copy-webpack-plugin --save-dev
+
+19. instalar plugin CssMinimizerWebpackPlugin (miniminiza css)
+    npm install -D css-minimizer-webpack-plugin (solo desarrollo) (instalar esta)
+    npm install css-minimizer-webpack-plugin --save-dev (solo desarrollo)
+
+20. instalar plugin TerserWebpackPlugin (miniminiza js)
+    npm install -D terser-webpack-plugin (solo desarrollo) (instalar esta)
+    npm install terser-webpack-plugin --save-dev (solo desarrollo)
+
+21. si se requiere compatibilidad con versiones anteriores a EnmaScript 6, instalar babel (seguir instrucciones para webpack)
+    npm install --save-dev babel-loader @babel/core
+    npm install @babel/preset-env --save-dev
+
+22. definir reglas por cada plugin, importar plugins y definirlos en el archivo webpack.config.js (desarrollo)
+    Para ejecutar el comando build: npm run build:dev//genera el sitio para desarrollo
+    para levantar el comando start: npm run start//levanta el sitio se puede simplificar a npm start
+
+23. definir reglas por cada plugin, importar plugins y definirlos en el archivo webpack.prod.js (produccion)
+    Para ejecutar el comando build: npm run build//genera el sitio para produccion
+    para levantar el comando start: npm run start//levanta el sitio se puede simplificar a npm start
+
+24. configurar el archivo webpack.prod.js (produccion) en el package.config
+
+

@@ -1,0 +1,24 @@
+WebPack
+
+Es un empaquetador de módulos
+	Gestiona las dependencias de la aplicación
+	trabaja en conjunto con el node package manager (NPM)
+	Montrar servidores de desarrollo y pruebas
+	cargar módulos
+	Convertir a diferentes formatos
+	Minimizar código automaticamente
+	Compilar SASS a CSS
+	Compilar TypeScript a Javascript
+	Permite trabajar con JS moderno
+
+La configuración inicial es complicada, cuando se hace se sube a GitHub y se puede
+descargar para su fácil instalación
+Puede ser algo complicado detectar problemas con algún paquete
+
+
+el package.json define que paquetes son
+necesarios para que la app funcione, 
+que paquetes no requiero en producción
+cuales comando ocupo para crear la app
+
+package.json

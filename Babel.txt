@@ -1,0 +1,6 @@
+Babel JS
+
+permite convertir el código de js de código moderno ES6+ a versiones viejas
+permitiendo usar navegadores viejos que por alguna razón no se puede actualizar
+
+BABEL es un paquete npm

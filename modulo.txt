@@ -1,0 +1,15 @@
+Un módulo es un archivo de js, para defnir 
+alguna funcionalidad y ser reutilizada en 
+otro lugar
+
+para importarse 
+
+import {nombreObjetoAImportar} from 'ruta'
+ejemplo
+import {saludar} from './js/componentes.js'
+
+no es necesario indicar la extensión,
+por defecto busca un archivo js
+import {saludar} from './js/componentes'
+
+
