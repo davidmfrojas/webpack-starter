@@ -30,3 +30,5 @@ Crear el branch principal
 
 subir los cambios realizados
     git push -u origin main
+
+Agregar archivo readme.md
