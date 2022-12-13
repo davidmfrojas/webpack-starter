@@ -32,3 +32,13 @@ subir los cambios realizados
     git push -u origin main
 
 Agregar archivo readme.md
+
+Para publicar el sitio en github (solamente paginas estaticas)
+    ejecutarelcomando npm run build y renombrar la carpeta dist a docs
+
+agregar al repositorio la carpeta creada
+    git add .
+
+subir los cambios
+    git commit -m "Mensaje de commit, sitio producción"
+    git push
