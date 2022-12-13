@@ -15,3 +15,6 @@ Crear archivo .gitignore y agregar lo que se desaea ignorar
 
 Agregar todos los archivos al repositorio
     git add .
+
+Realizar el primer commit para confirmar los cambios
+    git commit -m "Mensaje de commit"
