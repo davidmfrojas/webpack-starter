@@ -18,3 +18,15 @@ Agregar todos los archivos al repositorio
 
 Realizar el primer commit para confirmar los cambios
     git commit -m "Mensaje de commit"
+
+Para verificar los commit realizados
+    git log
+
+Publicar el sitio a github por primera vez (seguir pasos indicados por github)
+    git remote add origin https://github.com/davidmfrojas/webpack-starter.git //url del repositorio
+
+Crear el branch principal
+    git branch -M main
+
+subir los cambios realizados
+    git push -u origin main
