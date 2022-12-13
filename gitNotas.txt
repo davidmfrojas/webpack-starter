@@ -42,3 +42,14 @@ agregar al repositorio la carpeta creada
 subir los cambios
     git commit -m "Mensaje de commit, sitio producción"
     git push
+
+Publicarlo en github
+    1. ingrear al repositiorio
+        https://github.com/usuario/repositiorio
+    2. ingresar a Settings
+    3. Bucar Pages
+    4. En Build and deployment/Source seleccionar Deploy from a branch
+    5. En Branch Seleccionar el branch / folder en /docs
+    6. accionar el botón Save
+    7. ingresar de nuevo a Pages
+    8. El sitio debería mostrar la url publicada en verde para visitar
